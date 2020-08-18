@@ -1,0 +1,18 @@
+html {background-color: salmon;}
+
+#box-model {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding: 60px;
+    border-top: 60px solid red;
+    border-right: 60px solid red;
+    border-bottom: 60px solid red;
+    border-left: 60px solid red;
+    margin: 60px;
+
+
+ 
+    
+
+}
