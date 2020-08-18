@@ -1,1 +1,37 @@
-html {background-color: salmon;}
+/* Text meant only for screen readers.
+https://make.wordpress.org/accessibility/handbook/markup/the-css-class-screen-reader-text/
+*/
+.screen-reader-text {   /* . indicates class*/
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+  }
+/*
+Any anchor inside a nav ul must be directli inside nav
+
+
+
+
+*/
+
+nav a:hover {
+    color: rgb(0,0,200);
+}
+
+  nav a{
+      text-decoration: none; /*gets rid of underline*/
+      color: rgb(0,255,0); /* one of the example to handle RGB*/
+      
+  }
+
+  nav > ul {  /* has to be directly under one another , this will allow to move hyper link abit to the right*/
+
+list-style-type: square;
+  }
