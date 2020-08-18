@@ -28,7 +28,7 @@ nav a:hover {
   nav a{
       text-decoration: none; /*gets rid of underline*/
       color: rgb(0,255,0); /* one of the example to handle RGB*/
-      
+      font-family: "Trebuchet", Helvetica, Arial, sans-serif;
   }
 
   nav > ul {  /* has to be directly under one another , this will allow to move hyper link abit to the right*/
